@@ -1,3 +1,100 @@
-table, td{
+body{
+    max-width: 90%;
+    margin: auto;
+    background-image: url("https://cdn.wallpapersafari.com/73/33/P9b2gR.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom right;
+}
+
+body>:nth-child(1) p{
+    font-weight: bold;
+}
+
+header>:nth-child(3){
+    background-color: yellow;
+}
+
+table, tr, td{
     border: 1px solid black;
+}
+tr:nth-child(even){
+    background-color: #f0f0f098; 
+}
+tr:nth-child(odd){
+    background-color: white; 
+}
+blockquote{
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: #f0f0f0;
+    border-left : 3px solid firebrick;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+p{
+    font-family: Serif;
+    word-spacing: 3px;
+    font-size: 18px;
+    color: #050780;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #39b300;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 1s;
+    border-radius: 30px;
+}
+.good{
+    text-transform: capitalize;
+    color: green;
+}
+.bad{
+    text-transform: capitalize;
+    color: red;
+}
+
+.farmer{
+    border-left: 5px solid green;
+}
+.villagers{
+    border-left: 5px solid red;
+}
+
+ul>:nth-child(1){
+    background-image: url('./img/bien.png'); /* Path to your "good" image */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right; /* Adjust the position as needed */
+    padding-right: 30px;
+    width: fit-content;
+}
+ul>:nth-child(2){
+    background-image: url('./img/mal.png'); /* Path to your "good" image */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right; /* Adjust the position as needed */
+    padding-right: 30px;
+    width: fit-content;
+}
+ul>:nth-child(3){
+    background-image: url('./img/chat.png'); /* Path to your "good" image */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right; /* Adjust the position as needed */
+    padding-right: 30px;
+    width: fit-content;
 }
