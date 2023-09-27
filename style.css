@@ -1,3 +1,7 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
 body{
     max-width: 90%;
     margin: auto;
@@ -97,4 +101,22 @@ ul>:nth-child(3){
     background-position: right; /* Adjust the position as needed */
     padding-right: 30px;
     width: fit-content;
+}
+
+img{
+    width: 350px;
+    height : 350px;
+}
+figure{
+    margin-left: 0;
+}
+
+#texte{
+    width: 100%;
+    margin-top: 1em;
+}
+
+.sects{
+    display: flex;
+    gap: 15px;
 }
